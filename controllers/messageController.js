@@ -1,7 +1,7 @@
 const Message = require('../models/messageModel');
 const User = require('../models/userModel');
 const Chat = require('../models/chatModel');
-
+const {io} = require('../server');
 
 
 const sendMessage = async (req,res) => {
